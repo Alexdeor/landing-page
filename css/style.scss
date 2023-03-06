@@ -132,6 +132,7 @@
     position: absolute;
     right: 4%;
     bottom: 0;
+    animation: arrow-motion 3s infinite;
   }
   .main-page{
     position: relative;
@@ -272,6 +273,18 @@ justify-content: center;
   }
  }  
   }
+@keyframes arrow-motion{
+	0% {
+		transform: translateY(0);
+	}
+  50%{
+    		transform: translateY(-100px);
+
+  }
+	100% {
+		transform: translateY(0%);
+	}
+}
   @media only screen and (min-width: 980px){
   .nav-bar{
     display:flex;
