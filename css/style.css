@@ -127,6 +127,8 @@ body {
   position: absolute;
   right: 4%;
   bottom: 0;
+    animation: arrow-motion 3s infinite;
+
 }
 
 .main-page {
@@ -269,6 +271,18 @@ footer .navTwo {
 footer .navTwo li {
   margin: 0 3em 0 3em;
   color: var(--Dark-desaturated-cyan-color);
+}
+@keyframes arrow-motion{
+	0% {
+		transform: translateY(0);
+	}
+  50%{
+    		transform: translateY(-100px);
+
+  }
+	100% {
+		transform: translateY(0%);
+	}
 }
 
 @media only screen and (min-width: 980px) {
