@@ -464,6 +464,14 @@ footer .navTwo li {
   .about-content1, .about-content2 {
     padding: 1.5em;
   }
+  .main-page {
+    overflow: hidden;
+  }
+  .page-title {
+    width: 400px;
+    font-size: 20px;
+    padding: 2em;
+  }
   .blockOne {
     text-align: center;
   }
