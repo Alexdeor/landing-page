@@ -8,17 +8,16 @@
   <title>Sunnyside agency</title>
 </head>
 <body>
-  <main class="main-page">
+<div class="overlay"></div>
+<div class="main-page-overlay"></div>
+    <main class="main-page">
   <div class="nav-bar"> 
             <img class="logo" src="./images/logo.svg" alt="logo">
         <ul class="navOne">
             <a href="#about-page"><li>About</li></a>
             <a href="#services"><li>Services</li></a>
             <a href="#projects"><li>Projects</li></a>
-              <button class="contact" >CONTACT</button>
-              
-           
-         
+              <button class="contact" >CONTACT</button>         
           </ul>
           <button class="hamburger">
             <div class="bar"></div>
@@ -31,9 +30,16 @@
       <a href="https://www.linkedin.com/in/alexander-de-orbegoso-b1ab541aa/" target="_blank">Contact us</a>
       
       </nav>
+      <div class="title-box">
     <h1 class="page-title">WE ARE CREATIVES</h1>
-    <a href="#about-page"><img src="./images/icon-arrow-down.svg"  class="arrow" alt="arrow pointing downard"></a>
+  </div>
+  <div class="arrow-container">
+    <div class="arrow-title">LEARN MORE</div>
+    <a class = "arrow" href="#about-page"><svg width="38" height="33" viewBox="0 0 38 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M17.2322 32.2678C18.2085 33.2441 19.7915 33.2441 20.7678 32.2678L36.6777 16.3579C37.654 15.3816 37.654 13.7986 36.6777 12.8223C35.7014 11.846 34.1184 11.846 33.1421 12.8223L19 26.9645L4.85786 12.8223C3.88155 11.846 2.29864 11.846 1.32233 12.8223C0.34602 13.7986 0.34602 15.3816 1.32233 16.3579L17.2322 32.2678ZM16.5 0V30.5H21.5V0L16.5 0Z" fill="white"/>
+    </svg></a>
 
+</div>
 </main>
 
 <section id = "about-page" class="about-page">
@@ -54,29 +60,118 @@
   </section>
    <section id = "services">
     <h1>CLIENT TESTIMONIAL</h1>
-    <div class="profiles">
-<div class = "testimonials-profile">
-     <img src="./images/image-emily.jpg" alt="profile-picture">
-     <p class="comment">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
-       <h3 class="testimonials-name">Emily R.</h3>
-     <p class= "testimonials-title">Marketing Director</p>
+<div class="mainBlock">
+<button class="left"><</button>   
+<button class="right">></button> 
+
+      
+      
+  <div class = "blockOne">
+        <div class="card-header">
+          <img src="./images/image-emily.jpg" alt="profile-picture">
+          <h3 class="testimonials-name">Emily R.</h3>
+        </div>
+        <div class="content">
+        <p class="comment"> <strong>          <p class= "testimonials-title">Marketing Director</p>
+        </strong> <p class="comment">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>  
+        <p class="date">9:40 PM Oct 1,2023 <strong>4.6M</strong> Views</p>
+      <div class="tweet-info-counts">
+    
+        <div class="comments">
+          
+          <svg class="feather feather-message-circle sc-dnqmqq jxshSx" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+         
+        </div>
+        
+        <div class="retweets">
+          <svg class="feather feather-repeat sc-dnqmqq jxshSx" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="17 1 21 5 17 9"></polyline><path d="M3 11V9a4 4 0 0 1 4-4h14"></path><polyline points="7 23 3 19 7 15"></polyline><path d="M21 13v2a4 4 0 0 1-4 4H3"></path></svg>
+      
+        </div>
+        
+        <div class="likes">
+          <svg class="feather feather-heart sc-dnqmqq jxshSx" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+        </div>
+        
+        <div class="message">
+          <svg class="feather feather-send sc-dnqmqq jxshSx" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+        </div>
+      </div>
+    </div>
+ </div>
+
+
+
+
+      <div class = "blockOne two">
+        <div class="card-header">
+          <img src="./images/image-thomas.jpg" alt="profile-picture">
+          <h3 class="testimonials-name">Thomas S.</h3>
+        </div>
+        <div class="content">
+          <p class="comment"><strong><p class= "testimonials-title">Chief Operating Officer</p></strong> <p class="comment">Sunnyside's enthusiasm coupled with their keen interest in our brand's success made it a satisfying and enjoyable experience.</p>
+          <p class="date">9:40 PM Oct 1,2023 <strong>4.6M</strong> Views</p>
+      <div class="tweet-info-counts">
+    
+        <div class="comments">
+          
+          <svg class="feather feather-message-circle sc-dnqmqq jxshSx" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+         
+        </div>
+        
+        <div class="retweets">
+          <svg class="feather feather-repeat sc-dnqmqq jxshSx" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="17 1 21 5 17 9"></polyline><path d="M3 11V9a4 4 0 0 1 4-4h14"></path><polyline points="7 23 3 19 7 15"></polyline><path d="M21 13v2a4 4 0 0 1-4 4H3"></path></svg>
+      
+        </div>
+        
+        <div class="likes">
+          <svg class="feather feather-heart sc-dnqmqq jxshSx" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+        </div>
+        
+        <div class="message">
+          <svg class="feather feather-send sc-dnqmqq jxshSx" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+        </div>
+      </div>
+    </div>
+ </div>     
+   
+
+
+
+      
+<div class = "blockOne three">
+        <div class="card-header">
+          <img src="./images/image-jennie.jpg" alt="profile-picture">
+          <h3 class="testimonials-name">Jennie F.</h3>
+        </div>
+        <div class="content">
+        <p class="comment"> <strong><p class= "testimonials-title">Business Owner</p></strong> <p class="comment">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>   
+        <p class="date">9:40 PM Oct 1,2023 <strong>4.6M</strong> Views</p>
+      <div class="tweet-info-counts">
+    
+        <div class="comments">
+          
+          <svg class="feather feather-message-circle sc-dnqmqq jxshSx" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+         
+        </div>
+        
+        <div class="retweets">
+          <svg class="feather feather-repeat sc-dnqmqq jxshSx" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="17 1 21 5 17 9"></polyline><path d="M3 11V9a4 4 0 0 1 4-4h14"></path><polyline points="7 23 3 19 7 15"></polyline><path d="M21 13v2a4 4 0 0 1-4 4H3"></path></svg>
+      
+        </div>
+        
+        <div class="likes">
+          <svg class="feather feather-heart sc-dnqmqq jxshSx" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+        </div>
+        
+        <div class="message">
+          <svg class="feather feather-send sc-dnqmqq jxshSx" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+        </div>
+      </div>
+    </div>
+ </div>
 </div>
-<div class = "testimonials-profile">
-    <img src="./images/image-thomas.jpg" alt="profile-picture">
-      <p class="comment">Sunnyside's enthusiasm coupled with their keen interest in our brand's success made it a satisfying and enjoyable experience.</p>
-      <h3 class="testimonials-name">Thomas S.</h3>
-     <p class= "testimonials-title">Chief Operating Officer</p>
-</div>     
-     <p></p>
- <div class = "testimonials-profile">
-  <img src="./images/image-jennie.jpg" alt="profile-picture">
-  <p class="comment">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>   
- 
-  <h3 class="testimonials-name">Jennie F.</h3>
-     <p class= "testimonials-title">Business Owner</p>
-    <p></p>
 </div>
-</div>
+
    </section>
   <section id="projects">
   <img src="./images/lens-3046269_1280.jpg" alt="lens-picture">
