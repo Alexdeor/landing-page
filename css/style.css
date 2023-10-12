@@ -437,6 +437,9 @@ footer .navTwo li {
   .mobile-nav {
     display: none;
   }
+  .overlay-active {
+    display: none;
+  }
   .hamburger {
     display: none;
   }
